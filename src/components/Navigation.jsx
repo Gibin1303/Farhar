@@ -2,13 +2,12 @@ import React, { useState } from "react";
 import { Menu, X } from "lucide-react"; // hamburger (Menu) and close (X) icons
 import { useNavigate } from "react-router-dom";
 
-const Navbar = () => {
-  const [isOpen, setIsOpen] = useState(false);
+const Navigation = () => {
+      const [isOpen, setIsOpen] = useState(false);
   const navItems = ["HOME", "PROJECTS", "START PROJECT", "DASHBOARD"];
   const navigate = useNavigate()
-
   return (
-    <nav className="bg-gradient-to-r from-black to-yellow-400 text-white shadow p-6 ">
+        <nav className="bg-gradient-to-r from-black to-yellow-400 text-white shadow p-6 ">
       <div className="flex justify-between items-center">
         {/* Logo */}
         <h1 className="text-xl md:text-5xl font-bold capitalize">Crowdfunding</h1>
@@ -69,7 +68,7 @@ const Navbar = () => {
         </div>
       )}
     </nav>
-  );
-};
+  )
+}
 
-export default Navbar;
+export default Navigation

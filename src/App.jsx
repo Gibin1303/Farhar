@@ -7,13 +7,12 @@ import Terms from "./components/Terms";
 import Privacy from "./components/Privacy";
 import Accessibility from "./components/Accessability";
 import Login from "./pages/Login";
-import Navbar from "./components/navbar";
+import Navigation from "./components/Navigation";
 
 const App = () => {
   return (
     <div>
-      <Navbar />
-
+<Navigation/>
       <Routes>
         {/* Home Page */}
         <Route path="/" element={<Home />} />
