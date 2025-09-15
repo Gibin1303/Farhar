@@ -1,32 +1,9 @@
-// import React from 'react'
-// import Navbar from './components/Navbar.JSX'
-// import Home from './pages/Home'
-// import Footer from './components/Footer'
-// import { Route, Routes, useLocation } from 'react-router-dom'
-// import About from './components/About'
-
-// const App = () => {
-//   const location = useLocation()
-//   return (
-//     <div>
-//       <Navbar/>
-//       <Home/>
-//       <Footer/>
-//       {
-//         location.pathname === "/about"&&<About/>
-//       }
-//     </div>
-//   )
-
-// }
-
-// export default App
 
 
 
 import React from "react";
 import { Routes, Route } from "react-router-dom";
-import Navbar from "./components/ Navbar";
+import Navbar from "./components/navbar";
 import Footer from "./components/Footer";
 import Home from "./pages/Home";
 import About from "./components/About";
